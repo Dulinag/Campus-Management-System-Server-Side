@@ -33,10 +33,18 @@ router.get('/', ash(async(req, res) => {
 }));
 
 /* GET STUDENT BY ID */
+/* GET STUDENT BY ID INCLUDING CAMPUS */
 router.get('/:id', ash(async(req, res) => {
-  // Find student by Primary Key
-  let student = await Student.findByPk(req.params.id, {include: [Campus]});  // Get the student and its associated campus
-  res.status(200).json(student);  // Status code 200 OK - request succeeded
+  // Find student by Primary Key and include associated campus information
+  let student = await Student.findByPk(req.params.id, { include: [Campus] });
+  
+  // Check if the student exists
+  if (!student) {
+    return res.status(404).json({ error: 'Student not found' }); // Status code 404 Not Found
+  }
+  
+  // Send the retrieved student with associated campus information as a JSON response
+  res.status(200).json(student); // Status code 200 OK - request succeeded
 }));
 
 /* ADD NEW STUDENT */
@@ -66,6 +74,24 @@ router.put('/:id', ash(async(req, res) => {
   let student = await Student.findByPk(req.params.id);
   res.status(201).json(student);  // Status code 201 Created - successful creation of a resource
 }));
+
+/* EDIT STUDENT */
+// router.put('/:id', ash(async(req, res) => {
+//   try {
+//     // Update the student's information based on the provided ID
+//     await Student.update(req.body, { where: { id: req.params.id } });
+    
+//     // Find the updated student by Primary Key
+//     let updatedStudent = await Student.findByPk(req.params.id);
+    
+//     // Send the updated student as a JSON response
+//     res.status(200).json(updatedStudent); // Status code 200 OK - request succeeded
+//   } catch (error) {
+//     // If there's an error during student update, send an error response
+//     res.status(400).json({ error: 'Failed to update student' }); // Status code 400 Bad Request
+//   }
+// }));
+
 
 // Export router, so that it can be imported to construct the apiRouter (app.js)
 module.exports = router;
