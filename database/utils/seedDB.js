@@ -19,7 +19,7 @@ const createRandomStudents = async (num, campus) => {
             firstname: firstName,
             lastname: lastName,
             email: email,
-            imageUrl: "stu.jpg",
+            imageUrl: "https://t4.ftcdn.net/jpg/02/19/63/31/360_F_219633151_BW6TD8D1EA9OqZu4JgdmeJGg4JBaiAHj.jpg",
             gpa: (Math.random() * 2 + 2).toFixed(1) // GPA between 2.0 and 4.0
         });
 
@@ -31,16 +31,16 @@ const createRandomStudents = async (num, campus) => {
 const seedDB = async () => {
     // Create campuses
     const campuses = [
-        { name: "Hunter College", address: "695 Park Ave, New York, NY 10065", description: "This is a public university located in Manhattan.", imageUrl: 'cam.jpg' },
-        { name: "Queens College", address: "65-30 Kissena Blvd, Queens, NY 11367", description: "A public college in the Queens borough.", imageUrl: 'cam.jpg' },
-        { name: "Brooklyn College", address: "2900 Bedford Ave, Brooklyn, NY 11210", description: "Part of the CUNY system, located in Brooklyn.", imageUrl: 'cam.jpg' },
-        { name: "Columbia University", address: "116th St & Broadway, New York, NY 10027", description: "An Ivy League university in Manhattan.", imageUrl: 'cam.jpg' },
-        { name: "NYU", address: "New York, NY 10003", description: "New York University, a private research university in Greenwich Village.", imageUrl: 'cam.jpg' },
-        { name: "Fordham University", address: "441 E Fordham Rd, Bronx, NY 10458", description: "A private Jesuit university in the Bronx.", imageUrl: 'cam.jpg' },
-        { name: "The New School", address: "66 W 12th St, New York, NY 10011", description: "A private university in Lower Manhattan known for its arts and design programs.", imageUrl: 'cam.jpg' },
-        { name: "Baruch College", address: "55 Lexington Ave, New York, NY 10010", description: "A public college known for its business program.", imageUrl: 'cam.jpg' },
-        { name: "St. John's University", address: "8000 Utopia Pkwy, Queens, NY 11439", description: "A private Roman Catholic university in Queens.", imageUrl: 'cam.jpg' },
-        { name: "City College of New York", address: "160 Convent Ave, New York, NY 10031", description: "The oldest of the CUNY colleges, offering a wide range of degrees.", imageUrl: 'cam.jpg' }
+        { name: "Hunter College", address: "695 Park Ave, New York, NY 10065", description: "This is a public university located in Manhattan.", imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaexjWcGj0GXkU4DMqNTwRmm3OutwfQCr9lfYEyGIVg&s' },
+        { name: "Queens College", address: "65-30 Kissena Blvd, Queens, NY 11367", description: "A public college in the Queens borough.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "Brooklyn College", address: "2900 Bedford Ave, Brooklyn, NY 11210", description: "Part of the CUNY system, located in Brooklyn.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "Columbia University", address: "116th St & Broadway, New York, NY 10027", description: "An Ivy League university in Manhattan.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "NYU", address: "New York, NY 10003", description: "New York University, a private research university in Greenwich Village.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "Fordham University", address: "441 E Fordham Rd, Bronx, NY 10458", description: "A private Jesuit university in the Bronx.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "The New School", address: "66 W 12th St, New York, NY 10011", description: "A private university in Lower Manhattan known for its arts and design programs.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "Baruch College", address: "55 Lexington Ave, New York, NY 10010", description: "A public college known for its business program.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "St. John's University", address: "8000 Utopia Pkwy, Queens, NY 11439", description: "A private Roman Catholic university in Queens.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' },
+        { name: "City College of New York", address: "160 Convent Ave, New York, NY 10031", description: "The oldest of the CUNY colleges, offering a wide range of degrees.", imageUrl: 'https://www.qc.cuny.edu/vr/wp-content/uploads/sites/60/2021/04/queens-college-campus.jpg' }
     ];
 
     const createdCampuses = await Promise.all(campuses.map(campus => Campus.create(campus)));
