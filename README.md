@@ -12,6 +12,34 @@ This repository contains the server-side code for the Campus Management System, 
 - Integrated Sequelize ORM for database management
 - Validation and error handling
 
+
+## API Endpoints
+Below are the API endpoints available in this application:
+
+### Campuses
+- **GET /campuses** - Retrieve all campuses
+- **POST /campuses** - Create a new campus
+- **PUT /campuses/:id** - Update an existing campus
+- **DELETE /campuses/:id** - Delete a campus
+
+### Students
+- **GET /students** - Retrieve all students
+- **POST /students** - Create a new student
+- **PUT /students/:id** - Update an existing student
+- **DELETE /students/:id** - Delete a student
+
+## Contributors
+- **Your Name** - *Initial work* - [YourUsername](https://github.com/YourUsername)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc.
+
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
