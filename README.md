@@ -9,9 +9,9 @@ This repository contains the server-side code for the Campus Management System, 
 
 # Demo Video For Client and Server (Click Either Link or Picture for the two Video Demos)
 
-[![Watch the video](https://img.youtube.com/vi/INSERT_VIDEO_ID_HERE/maxresdefault.jpg)](https://vimeo.com/945863884)
+##[![Watch the video](https://img.youtube.com/vi/INSERT_VIDEO_ID_HERE/maxresdefault.jpg)](https://vimeo.com/945863884)
 
-##[![Watch the Server Side Demo](https://github.com/Dulinag/final-project-server/assets/83606238/631372f3-6f50-4bdb-9af4-1a64d0f48417)](https://vimeo.com/945863884)
+[![Watch the Server Side Demo](https://github.com/Dulinag/final-project-server/assets/83606238/631372f3-6f50-4bdb-9af4-1a64d0f48417)](https://vimeo.com/945863884)
 
 ##[![Watch the video](https://img.youtube.com/vi/INSERT_VIDEO_ID_HERE/maxresdefault.jpg)](https://vimeo.com/945863884)
 
