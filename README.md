@@ -1,5 +1,9 @@
 # Campus Management System - Server Side
 
+## Contributors
+- **Dulina Gunasekara** - *Initial work* - [Dulinag](https://github.com/Dulinag)
+- **Ian Clarke** - *Initial work* - [ianclarke03 ](https://github.com/ianclarke03 )
+
 ## Overview
 This repository contains the server-side code for the Campus Management System, a full-stack CRUD application developed using Node.js, Express, PostgreSQL, and Sequelize ORM. It manages all backend functionalities including database operations and API routing for managing campuses and students.
 
@@ -28,16 +32,6 @@ Below are the API endpoints available in this application:
 - **PUT /students/:id** - Update an existing student
 - **DELETE /students/:id** - Delete a student
 
-## Contributors
-- **Your Name** - *Initial work* - [YourUsername](https://github.com/YourUsername)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
 
 
 ## Getting Started
