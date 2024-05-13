@@ -1,6 +1,32 @@
-# server-starter-code
+# Campus Management System - Server Side
 
-This repository is the server (back-end) starter code for Final Project - Full-Stack CRUD Application.
+## Overview
+This repository contains the server-side code for the Campus Management System, a full-stack CRUD application developed using Node.js, Express, PostgreSQL, and Sequelize ORM. It manages all backend functionalities including database operations and API routing for managing campuses and students.
+
+## Demo Video
+[![Watch the video](https://img.youtube.com/vi/INSERT_VIDEO_ID_HERE/maxresdefault.jpg)](https://youtu.be/INSERT_VIDEO_ID_HERE)
+
+## Features
+- CRUD operations for campuses and students
+- RESTful API architecture
+- Integrated Sequelize ORM for database management
+- Validation and error handling
+
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+What things you need to install the software and how to install them:
+
+
+
+### Installing
+A step-by-step series of examples that tell you how to get a development environment running:
+1. Clone the repository:
+
+2. Install NPM packages:
+
+4. Start the server:
 
 **Prerequisites**
 - Install PostgreSQL (Postgres) [[link](https://www.postgresql.org/download/)] - required to run the database
