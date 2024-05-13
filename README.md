@@ -8,7 +8,8 @@
 This repository contains the server-side code for the Campus Management System, a full-stack CRUD application developed using Node.js, Express, PostgreSQL, and Sequelize ORM. It manages all backend functionalities including database operations and API routing for managing campuses and students.
 
 ## Demo Video
-[![Watch the Server Side Demo](https://vimeo.com/945863884)](https://vimeo.com/945863884)
+[![Watch the Server Side Demo](![image](https://github.com/Dulinag/final-project-server/assets/83606238/ccc1fb8b-9bcd-4f42-b63f-b942267a2ceb)
+)](https://vimeo.com/945863884)
 
 
 ## Features
