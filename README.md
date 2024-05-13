@@ -16,19 +16,6 @@ This repository contains the server-side code for the Campus Management System, 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-What things you need to install the software and how to install them:
-
-
-
-### Installing
-A step-by-step series of examples that tell you how to get a development environment running:
-1. Clone the repository:
-
-2. Install NPM packages:
-
-4. Start the server:
-
-**Prerequisites**
 - Install PostgreSQL (Postgres) [[link](https://www.postgresql.org/download/)] - required to run the database
 - Install Postman [[link](https://www.postman.com/downloads/)] - optional tool for API testing 
 
@@ -68,3 +55,14 @@ In the `server-starter-code/database/utils/configDB.js` file, replace the `dBpwd
   const dbUser = 'postgres';
   const dbPwd = '<your password>';
 ```
+
+
+### Installing
+A step-by-step series of examples that tell you how to get a development environment running:
+1. Clone the repository:
+
+2. Install NPM packages:
+
+4. Start the server:
+
+
