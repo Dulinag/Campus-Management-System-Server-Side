@@ -1,8 +1,8 @@
 # Campus Management System - Server Side
 
 ## Contributors
-- **Dulina Gunasekara** - *Initial work* - [Dulinag](https://github.com/Dulinag)
-- **Ian Clarke** - *Initial work* - [ianclarke03 ](https://github.com/ianclarke03 )
+- **Dulina Gunasekara** - *Full-Stack Dev* - [Dulinag](https://github.com/Dulinag)
+- **Ian Clarke** - *Full-Stack Dev* - [ianclarke03 ](https://github.com/ianclarke03 )
 
 ## Overview
 This repository contains the server-side code for the Campus Management System, a full-stack CRUD application developed using Node.js, Express, PostgreSQL, and Sequelize ORM. It manages all backend functionalities including database operations and API routing for managing campuses and students.
